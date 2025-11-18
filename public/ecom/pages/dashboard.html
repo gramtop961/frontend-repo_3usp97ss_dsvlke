@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dashboard • NovaShop</title>
+  <link rel="stylesheet" href="/ecom/css/styles.css">
+</head>
+<body data-page="dashboard">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/ecom/pages/index.html" class="brand"><span class="logo">N</span> NovaShop</a>
+      <div class="actions">
+        <a id="logout" class="btn secondary" href="#">Logout</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h2>Welcome, <span id="d-name"></span></h2>
+
+    <section class="section">
+      <h3>Your orders</h3>
+      <table class="table table-sm">
+        <thead><tr><th>ID</th><th>Date</th><th>Amount</th></tr></thead>
+        <tbody id="d-orders"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script type="module" src="/ecom/js/app.js"></script>
+</body>
+</html>

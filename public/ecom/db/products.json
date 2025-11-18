@@ -1,0 +1,98 @@
+[
+  {
+    "id": "p1",
+    "title": "Aurora Wireless Headphones",
+    "price": 129.99,
+    "category": "Audio",
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1518444089045-287b7e07ddd1?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518441902118-5f3d8469a8d6?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Immersive sound with active noise cancellation and 40-hour battery life."
+  },
+  {
+    "id": "p2",
+    "title": "Nebula Smartwatch Pro",
+    "price": 199.0,
+    "category": "Wearables",
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Fitness tracking, AMOLED display, GPS, and 5-day battery."
+  },
+  {
+    "id": "p3",
+    "title": "Lumen 4K Action Camera",
+    "price": 249.0,
+    "category": "Cameras",
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1519183071298-a2962be96f83?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606681752966-2af77a7e97e8?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Rugged 4K camera with stabilization and waterproof housing."
+  },
+  {
+    "id": "p4",
+    "title": "Stellar Mechanical Keyboard",
+    "price": 99.5,
+    "category": "Accessories",
+    "rating": 4.8,
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "RGB backlit keyboard with hot-swappable switches and aluminum frame."
+  },
+  {
+    "id": "p5",
+    "title": "Orbit Drone Mini",
+    "price": 149.0,
+    "category": "Drones",
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e0?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Palm-sized drone with 1080p camera and obstacle avoidance."
+  },
+  {
+    "id": "p6",
+    "title": "Solace Bluetooth Speaker",
+    "price": 79.99,
+    "category": "Audio",
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1512446816042-444d641267d4?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Portable speaker with deep bass and IPX7 waterproofing."
+  },
+  {
+    "id": "p7",
+    "title": "Comet Gaming Mouse",
+    "price": 49.0,
+    "category": "Accessories",
+    "rating": 4.2,
+    "images": [
+      "https://images.unsplash.com/photo-1563293766-5f697e8d7920?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587202372616-c7c3fd058cb5?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Lightweight mouse with 12K DPI sensor and RGB."
+  },
+  {
+    "id": "p8",
+    "title": "ZenBook Stand",
+    "price": 29.99,
+    "category": "Accessories",
+    "rating": 4.1,
+    "images": [
+      "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?q=80&w=1000&auto=format&fit=crop"
+    ],
+    "description": "Ergonomic aluminum stand for laptops and tablets."
+  }
+]

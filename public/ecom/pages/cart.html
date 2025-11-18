@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cart • NovaShop</title>
+  <link rel="stylesheet" href="/ecom/css/styles.css">
+</head>
+<body data-page="cart">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/ecom/pages/index.html" class="brand"><span class="logo">N</span> NovaShop</a>
+      <div class="actions">
+        <a class="btn secondary" href="/ecom/pages/list.html">Continue Shopping</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <table class="table">
+      <thead><tr><th>Item</th><th>Name</th><th>Price</th><th>Qty</th><th>Subtotal</th><th></th></tr></thead>
+      <tbody id="cart-body"></tbody>
+    </table>
+    <div class="total">
+      <strong>Total:</strong>
+      <span id="cart-total">$0.00</span>
+      <a id="checkout-link" class="btn primary" href="/ecom/pages/checkout.html">Checkout</a>
+    </div>
+  </main>
+
+  <script type="module" src="/ecom/js/app.js"></script>
+</body>
+</html>

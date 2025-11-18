@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shop • NovaShop</title>
+  <link rel="stylesheet" href="/ecom/css/styles.css">
+</head>
+<body data-page="list">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/ecom/pages/index.html" class="brand"><span class="logo">N</span> NovaShop</a>
+      <div class="search">
+        <input id="search" placeholder="Search products...">
+      </div>
+      <div class="actions">
+        <button id="theme-toggle" class="icon-btn">🌓</button>
+        <a class="icon-btn" href="/ecom/pages/cart.html">🛒</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="filters" class="controls">
+      <select id="filter-category"></select>
+      <div class="range"><label>Max price</label><input id="price-range" type="range" min="0" max="300" value="300"><span>$<span id="pv">300</span></span></div>
+      <div><label>Rating</label><select id="filter-rating"><option value="0">All</option><option>4</option><option>4.5</option></select></div>
+      <select id="sort"><option value="popular">Sort: Popular</option><option value="low">Price: Low→High</option><option value="high">Price: High→Low</option></select>
+    </section>
+
+    <section class="grid" id="products"></section>
+  </main>
+
+  <script>document.getElementById('price-range').addEventListener('input', e=> document.getElementById('pv').textContent=e.target.value)</script>
+  <script type="module" src="/ecom/js/app.js"></script>
+</body>
+</html>

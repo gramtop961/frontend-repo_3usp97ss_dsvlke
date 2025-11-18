@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout • NovaShop</title>
+  <link rel="stylesheet" href="/ecom/css/styles.css">
+</head>
+<body data-page="checkout">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/ecom/pages/index.html" class="brand"><span class="logo">N</span> NovaShop</a>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h2>Checkout</h2>
+    <p class="help">Order summary: <span id="summary"></span></p>
+    <form id="checkout-form" class="form">
+      <div class="row">
+        <input name="fullname" placeholder="Full name" required>
+        <input name="email" type="email" placeholder="Email" required>
+      </div>
+      <input name="address" placeholder="Address" required>
+      <div class="row">
+        <input name="city" placeholder="City" required>
+        <input name="zip" placeholder="ZIP" required>
+      </div>
+      <input name="card" placeholder="Card number" required>
+      <button class="btn primary" type="submit">Pay & Place Order</button>
+    </form>
+  </main>
+
+  <script type="module" src="/ecom/js/app.js"></script>
+</body>
+</html>

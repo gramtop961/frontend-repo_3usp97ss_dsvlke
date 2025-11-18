@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign in • NovaShop</title>
+  <link rel="stylesheet" href="/ecom/css/styles.css">
+</head>
+<body data-page="auth">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/ecom/pages/index.html" class="brand"><span class="logo">N</span> NovaShop</a>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="detail">
+      <form id="login" class="form">
+        <h3>Login</h3>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <button class="btn primary" type="submit">Login</button>
+      </form>
+      <form id="register" class="form">
+        <h3>Create account</h3>
+        <input name="name" placeholder="Full name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <button class="btn primary" type="submit">Register</button>
+        <p class="help">To test admin, register then set role to admin in localStorage key "db_users"</p>
+      </form>
+    </div>
+  </main>
+
+  <script type="module" src="/ecom/js/app.js"></script>
+</body>
+</html>

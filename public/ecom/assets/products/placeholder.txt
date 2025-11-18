@@ -1,0 +1,1 @@
+Images are represented by placeholder rectangles using CSS; provide your own images in this folder with matching names to replace placeholders.

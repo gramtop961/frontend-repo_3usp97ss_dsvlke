@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Product • NovaShop</title>
+  <link rel="stylesheet" href="/ecom/css/styles.css">
+</head>
+<body data-page="detail">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/ecom/pages/index.html" class="brand"><span class="logo">N</span> NovaShop</a>
+      <div class="actions">
+        <button id="theme-toggle" class="icon-btn">🌓</button>
+        <a class="icon-btn" href="/ecom/pages/cart.html">🛒</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div id="detail" class="detail">
+      <div class="gallery">
+        <div id="g-main" class="main"></div>
+        <div id="g-thumbs" class="thumbs"></div>
+      </div>
+      <div>
+        <h2 id="d-title"></h2>
+        <div id="d-price" class="price"></div>
+        <p id="d-desc"></p>
+        <div class="quantity"><label>Qty</label><input id="qty" type="number" min="1" value="1"/></div>
+        <div style="margin-top:10px;display:flex;gap:10px">
+          <button id="add-btn" class="btn primary">Add to cart</button>
+          <a href="/ecom/pages/list.html" class="btn secondary">Back to shop</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <h3>Ratings & Reviews</h3>
+      <div id="reviews" class="grid"></div>
+      <form id="review-form" class="form" style="margin-top:16px">
+        <div class="row">
+          <input name="name" placeholder="Your name" required>
+          <select name="rating" required>
+            <option value="">Rating</option>
+            <option value="5">★★★★★</option>
+            <option value="4">★★★★☆</option>
+            <option value="3">★★★☆☆</option>
+          </select>
+        </div>
+        <textarea name="text" placeholder="Write your review..." required></textarea>
+        <button class="btn primary" type="submit">Submit Review</button>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="/ecom/js/app.js"></script>
+</body>
+</html>
